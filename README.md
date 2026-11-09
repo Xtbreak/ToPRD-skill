@@ -28,6 +28,18 @@ ln -s /你的仓库路径/ToPRD-skill ~/.codex/skills/toprd-skill
 
 入口为 [SKILL.md](SKILL.md)，按模式读取 references 下的规范。行为验证场景见 [tests/scenarios.md](tests/scenarios.md)。
 
+### 选择交付内容
+
+可以直接说明需要哪些文档，已有选择会在对话中沿用。
+
+| 需要的内容 | 示例提示词 |
+|---|---|
+| 仅 PRD | 使用 `$toprd-skill`，根据这个项目生成当前版本的 PRD，只输出 PRD。 |
+| PRD 和实现详解 | 使用 `$toprd-skill`，根据这个项目生成 PRD，另外单独输出项目实现详解，帮助我理解核心流程与技术取舍。 |
+| PRD 和面试问答 | 使用 `$toprd-skill`，根据这个项目生成 PRD，另外单独输出 AI 产品经理面试问答，结合我的实际工作准备连续追问。 |
+
+也可以同时选择三份文档。项目背景、个人贡献或评测信息不足时，Skill 会先询问，再根据回答整理正文。
+
 ## 来源与许可
 
 基于 Digidai/product-manager-skills 的 PRD 方法进行改编，新增反推流程、七节 AI PRD、对话补全规则和可选面试材料。采用 CC BY-NC-SA 4.0，来源、版本及改编范围见 [ATTRIBUTION.md](ATTRIBUTION.md)，许可证见 [LICENSE](LICENSE)。
