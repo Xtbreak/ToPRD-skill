@@ -1,10 +1,10 @@
 ---
-name: toprd
+name: toprd-skill
 description: Use when drafting an AI product PRD from an idea, reconstructing a PRD from an existing project, or preparing project-specific implementation explanations and AI product manager interview answers. 适用于从零写 AI 产品 PRD、根据项目反推需求和项目面试准备。
 license: CC-BY-NC-SA-4.0
 ---
 
-# ToPRD
+# ToPRD-skill
 
 根据真实需求、项目证据和用户回答，交付可提交的 AI 产品文档。使用用户的语言，默认中文。
 

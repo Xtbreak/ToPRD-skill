@@ -1,4 +1,4 @@
-# ToPRD
+# ToPRD-skill
 
 从一个想法或已有项目生成可提交的 AI 产品 PRD。信息不足时先提问，再根据用户回答润色并保留核心内容。
 
@@ -18,13 +18,13 @@
 
 ## 使用
 
-把本仓库放到宿主的 skills 目录并命名为 `toprd`，或将仓库链接到该目录。Codex 本地安装示例，目标目录应为空闲名称。
+把本仓库放到宿主的 skills 目录并命名为 `toprd-skill`，或将仓库链接到该目录。Codex 本地安装示例，目标目录应为空闲名称。
 
 ```bash
-ln -s /你的仓库路径/ToPRD ~/.codex/skills/toprd
+ln -s /你的仓库路径/ToPRD-skill ~/.codex/skills/toprd-skill
 ```
 
-新会话中调用 `$toprd`，例如“我想做一个论文 PDF 问答工具，帮我从零写 PRD”，或“根据这个项目目录补一份当前版本的 PRD”。也可单独要求项目详解或面试问答。具体能力取决于宿主是否能读取文件、运行项目和浏览资料。
+新会话中调用 `$toprd-skill`，例如“我想做一个论文 PDF 问答工具，帮我从零写 PRD”，或“根据这个项目目录补一份当前版本的 PRD”。也可单独要求项目详解或面试问答。具体能力取决于宿主是否能读取文件、运行项目和浏览资料。
 
 入口为 [SKILL.md](SKILL.md)，按模式读取 references 下的规范。行为验证场景见 [tests/scenarios.md](tests/scenarios.md)。
 
